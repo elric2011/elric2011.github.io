@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Elric's Tech World
-tagline: 
 ---
 {% include JB/setup %}
 
