@@ -28,19 +28,19 @@ tags: [技术原创, nginx]
 ### 1. 写个test.php，用来输出规则到浏览器
 
 	<?php
-	   echo $_GET['req'].’ -> '.$_GET['rule'];
+		echo $_GET['req'].’ -> '.$_GET['rule'];
 	?>
 
 ### 2. 配置nginx，将规则传到test.php，显示
 
 	location /uri/ {
-	   rewrite (/.*) /test.php?req=$1&rule=[str]/uri/ last;
+		rewrite (/.*) /test.php?req=$1&rule=[str]/uri/ last;
 	}
 
 	location ~* ^/test.php$ {
-	   include fastcgi.conf;
-	   fastcgi_pass 127.0.0.1:9000;
-	   fastcgi_param  SCRIPT_FILENAME $document_root/test.php;
+		include fastcgi.conf;
+		fastcgi_pass 127.0.0.1:9000;
+		fastcgi_param  SCRIPT_FILENAME $document_root/test.php;
 	}
 
 测试用例与结果
