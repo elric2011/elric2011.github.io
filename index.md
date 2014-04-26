@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Elric's Tech World
+title: 近期文章
 ---
 {% include JB/setup %}
 
