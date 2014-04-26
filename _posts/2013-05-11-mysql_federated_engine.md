@@ -3,8 +3,8 @@ layout: post
 title: "mysql federated引擎实现跨库数据处理"
 permalink: /a/mysql_federated_engine.html
 description: ""
-category: 
-tags: [技术原创, mysql]
+category: 技术原创
+tags: [mysql, federated]
 ---
 {% include JB/setup %}
 

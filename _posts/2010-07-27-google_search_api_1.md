@@ -3,8 +3,8 @@ layout: post
 title: "应用程序获取Google搜索结果（一）"
 permalink: /a/google_search_api_1.html
 description: ""
-category: 
-tags: [技术原创]
+category: 技术原创
+tags: [搜索, google]
 ---
 {% include JB/setup %}
 

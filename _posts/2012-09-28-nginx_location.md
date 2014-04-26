@@ -3,8 +3,8 @@ layout: post
 title: "Nginx Location使用详解"
 permalink: /a/nginx_location.html
 description: ""
-category: 
-tags: [技术原创, nginx]
+category: 技术原创
+tags: [nginx]
 ---
 {% include JB/setup %}
 

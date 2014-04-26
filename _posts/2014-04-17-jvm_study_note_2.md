@@ -3,8 +3,8 @@ layout: post
 title: "《深入理解Java虚拟机》学习笔记（二）"
 permalink: /a/jvm_study_note_2.html
 description: ""
-category: 
-tags: [技术原创,读书笔记]
+category: 技术原创
+tags: [深入理解Java虚拟机, Java, JVM]
 ---
 {% include JB/setup %}
 主题：垃圾收集器与内存分配策略

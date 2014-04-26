@@ -3,8 +3,8 @@ layout: post
 title: "【转】用户密码的存储与 Python 示例"
 permalink: /a/password_strage.html
 description: ""
-category: 
-tags: [技术转载,安全]
+category: 技术转载
+tags: [安全, 密码]
 ---
 {% include JB/setup %}
 

@@ -3,8 +3,8 @@ layout: post
 title: "SQL分组排序Limit"
 permalink: /a/sql_sort_in_group.html
 description: ""
-category: 
-tags: [技术原创, mysql]
+category: 技术原创
+tags: [sql, mysql]
 ---
 {% include JB/setup %}
 

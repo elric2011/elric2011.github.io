@@ -3,8 +3,8 @@ layout: post
 title: "Robot Framework学习笔记"
 permalink: /a/robot_framework_study_note.html
 description: ""
-category: 
-tags: [技术原创, 学习笔记]
+category: 技术原创
+tags: [学习笔记, Robot Framework]
 ---
 {% include JB/setup %}
 

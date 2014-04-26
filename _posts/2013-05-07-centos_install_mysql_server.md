@@ -3,8 +3,8 @@ layout: post
 title: "centos下mysql源代码安装"
 permalink: /a/centos_install_mysql_serserver.html
 description: ""
-category: 
-tags: [技术原创,mysql]
+category: 技术原创
+tags: [mysql]
 ---
 {% include JB/setup %}
 
