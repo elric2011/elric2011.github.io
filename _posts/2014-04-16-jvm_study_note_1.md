@@ -13,7 +13,7 @@ Java内存区域的划分
 
 根据存放数据的不同，JVM的内存空间分为程序计数器、虚拟机栈、本地方法栈、堆、方法区、运行时常量池、直接内存（在Java运行时内存空间之外），本节总结了这几个区域的作用、特点，并给出了部分区域内存溢出的简单用例。
 
-> 备注：代码可从 http://code.dianpingoa.com/tomato-lab/jvm-study 获取
+> 备注：代码可从 [https://github.com/elric2011/jvm-study](https://github.com/elric2011/jvm-study) 获取
 
 ### 程序计数器 ###
 
