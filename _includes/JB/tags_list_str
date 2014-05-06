@@ -1,0 +1,1 @@
+{% if tags_list.first[0] == null %}{% for tag in tags_list %}{% if forloop.last %}{{ tag }}{% else %}{{ tag }},{% endif %}{% endfor %}{% else %}{% for tag in tags_list %}{% if forloop.last %}{{ tag[0] }}{% else %}{{ tag[0] }},{% endif %}{% endfor %}{% endif %}{% assign tags_list = nil %}

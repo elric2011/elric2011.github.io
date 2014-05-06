@@ -2,9 +2,9 @@
 layout: post
 title: "应用程序获取Google搜索结果（二）"
 permalink: /a/google_search_api_2.html
-description: ""
+description: "介绍如果通过程序去自动获取Google搜索结果，介绍Google Ajax API的使用方法，以及相应的Java程序示例。"
 category: 技术原创
-tags: [搜索, google]
+tags: [搜索, google, search, Java, Ajax]
 ---
 {% include JB/setup %}
 

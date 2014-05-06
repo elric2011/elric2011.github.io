@@ -2,9 +2,9 @@
 layout: post
 title: "Nginx Location使用详解"
 permalink: /a/nginx_location.html
-description: ""
+description: "本文详细介绍nginx匹配url规则的方式，并给出了相应的测试代码。"
 category: 技术原创
-tags: [nginx]
+tags: [nginx, nginx重定向, urlrewrite]
 ---
 {% include JB/setup %}
 
