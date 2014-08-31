@@ -10,22 +10,23 @@ tags: [渐进jpeg, 图像处理]
 
 
 
-渐进jpeg特点：
+渐进jpeg特点
 -----
 在装入图像时，开始只显示一个模糊的图像，随着数据的装入，图像逐步变得清晰。
 
 
-效果比较：（从左到右是图片的载入过程）
+效果比较（从左到右是图片的载入过程）
 -----
-* 普通jpeg（baseline jpeg）：
+
+普通jpeg（baseline jpeg）：
 
 ![普通JPEG加载过程](/i/5-base-example.jpg)
 
-* 渐进jpeg（progressive jpeg）：
+渐进jpeg（progressive jpeg）：
 
 ![渐进JPEG加载过程](/i//4-prog-example.jpg)
 
-大小比较：
+大小比较
 -----
 Stoyan Stefanov的测试统计结果显示，
 
@@ -36,7 +37,7 @@ Stoyan Stefanov的测试统计结果显示，
 
 beta随机测试了1000张700x700图片，progressive比baseline平均节省4.65k，平均节省4.08%
 
-性能对比：
+性能对比
 -----
 Stoyan Stefanov在PC（Windows XP, 2GHz dual CPU, 500Mb RAM）上单独做图片jpeg输出操作的测试结果，
 
@@ -46,12 +47,12 @@ Stoyan Stefanov在PC（Windows XP, 2GHz dual CPU, 500Mb RAM）上单独做图片
 由于我们网站图片除了做图片输出，还要做缩放、裁剪、打水印操作，所以总的性能差距会相对更小。
 
 
-其它差异对比：
+其它差异对比
 -----
-* 早期的ie版本下，baseline还是一块块显示，progressive则要等图片完全载完后显示
+早期的ie版本下，baseline还是一块块显示，progressive则要等图片完全载完后显示
 
 
-综合对比：
+综合对比
 -----
 1. 针对我们网站的图片（大部分都>10k），在相同尺寸、相同质量的前提下，渐进式jpeg压出的图片更小些
 2. 要输出成渐进式jpeg，会有少量的性能损失
@@ -61,4 +62,4 @@ Stoyan Stefanov在PC（Windows XP, 2GHz dual CPU, 500Mb RAM）上单独做图片
 
 目前使用这种模式图片的网站：QQ空间相册、人人相册等。
 
-参考文章：http://www.yuiblog.com/blog/2008/12/05/imageopt-4/
+参考文章：[http://www.yuiblog.com/blog/2008/12/05/imageopt-4/](http://www.yuiblog.com/blog/2008/12/05/imageopt-4/)
