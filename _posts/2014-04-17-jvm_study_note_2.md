@@ -3,7 +3,7 @@ layout: post
 title: "《深入理解Java虚拟机》学习笔记（二）"
 permalink: /a/jvm_study_note_2.html
 description: ""
-category: 技术原创
+category: 读书笔记
 tags: [深入理解Java虚拟机, Java, JVM]
 ---
 {% include JB/setup %}
