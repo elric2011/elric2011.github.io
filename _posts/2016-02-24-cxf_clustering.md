@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ""
+title: "基于CXF Clustering的服务治理实践"
 permalink: /a/cxf_clustering.html
 description: ""
 category: 技术原创
